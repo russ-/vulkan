@@ -98,6 +98,7 @@ TRANSLATOR:
       - {target: ^callVkCreateGraphicsPipelines$, tips: [0,0,size,arr,ref,arr]}
       - {target: ^callVkCreateComputePipelines$, tips: [0,0,size,arr,ref,arr]}
       - {target: ^callVkAllocateDescriptorSets$, tips: [0,ref,arr]}
+      - {target: ^callVkFreeDescriptorSets$, tips: [0,0,size,arr]}
       - {target: ^callVkUpdateDescriptorSets$, tips: [0,size,arr,size,arr]}
       - {target: ^callVkAllocateCommandBuffers$, tips: [0,ref,arr]}
       - {target: ^callVkFreeCommandBuffers$, tips: [0,0,size,arr]}
